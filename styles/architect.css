@@ -204,11 +204,37 @@ main > section{
 }
 /* responsive media query */
 
+/* footer styles */
+.footer-container{
+      
+}
+
+.conclusion{
+    background-color: #FFF4E7;
+    width: 1440px;
+    height: 70px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    padding-top: 39px;
+}
+
+
+
+footer{
+    justify-items: center;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
 @media screen and (max-width:576px) {
     .navbar, 
     .nav-links, 
     .teams,
-    .features{
+    .features,
+    .footer{
         flex-direction: column;
     }
     .navbar, .banner{
@@ -237,6 +263,15 @@ main > section{
         margin-top: 20px;
         margin-left: 20px;
     }
+    .footer-container{
+        
+    }
+    .conclusion{
+        width: 390px;
+    
+    }
+    
+
 }
 
 
@@ -260,5 +295,9 @@ main > section{
     #experiance-badge{
         margin-top: 20px;
         margin-left: 20px;
+    }
+    .conclusion{
+        width: 580px;
+        justify-items: center;
     }
 }
